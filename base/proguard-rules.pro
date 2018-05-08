@@ -41,6 +41,12 @@
 -keep public class com.android.vending.licensing.ILicensingService
 -keep class android.support.** {*;}
 
+-dontwarn android.support.v4.**
+-keep class android.support.v4.** { *; }
+-keep interface android.support.v4.app.** { *; }
+-keep public class * extends android.support.v4.**
+-keep public class * extends android.app.Fragment
+
 -keepclasseswithmembernames class * {
     native <methods>;
 }
@@ -85,7 +91,7 @@
 -keepclassmembers class fqcn.of.javascript.interface.for.Webview {
    public *;
 }
--keepclassme.mbers class * extends android.webkit.WebViewClient {
+-keepclassmembers class * extends android.webkit.WebViewClient {
     public void *(android.webkit.WebView, java.lang.String, android.graphics.Bitmap);
     public boolean *(android.webkit.WebView, java.lang.String);
 }
@@ -95,5 +101,3 @@
 #########################  默认保留区##################################
 -dontwarn android.databinding.**
 -keep class android.databinding.** { *; }
--keep class com.customexample.zzc.customviewcode.** {*;}
--keep class com.customexample.zzc.base.** {*;}

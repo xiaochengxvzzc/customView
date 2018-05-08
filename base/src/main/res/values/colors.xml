@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="titleRed">#CD0000</color>
+    <color name="titleRedClick">#AD0000</color>
+    <color name="textBgRed">#FF6A6A</color>
+    <color name="lightgray">#9e9e9e</color>
+    <color name="lightlightgray">#EBEBEB</color>
+    <color name="blue">#00a5ee</color>
+    <color name="lightblue">#1874CD</color>
+    <color name="green">#7ed321</color>
+    <color name="darkgray">#7d7d7d</color>
+    <color name="lightgray1">#9b9b9b</color>
+    <color name="gray">#c5c5c5</color>
+    <color name="divide">#CCCCCC</color>
+    <color name="red">#ff5c61</color>
+    <color name="darkred">#ff001f</color>
+    <color name="light_white">#99ffffff</color>
+    <color name="invite_blue">#5bcfc4</color>
+    <color name="touming">#00000000</color>
+    <color name="yellow_money">#f5a623</color>
+    <color name="purple">#7f1dd2</color>
+    <color name="dialog_tab_gray">#E1D2C9</color>
+    <color name="dialog_tab_orange">#FF6F05</color>
+    <color name="dialog_tab_yellow">#E1932D</color>
+    <color name="dialog_tab_blue">#1D76D2</color>
+    <color name="light_black">#5a5a5a</color>
+    <color name="lightlightyellow">#f6f5f1</color>
+    <!--页面背景的颜色-->
+    <color name="colorPageBg">#f2f4f5</color>
+    <!--tab标签栏文字的颜色-->
+    <color name="colorTabText">#585858</color>
+    <color name="colorTabTextBottom">#666666</color>
+    <color name="ash_color">#cccccc</color><!--次要文字颜色-->
+    <!--水波纹或5.0以下选择器颜色-->
+    <color name="tabBackground">#777D7D7D</color>
+    <color name="yellow_tab_bg">#ff6600</color>
+    <color name="title_bar_color">#ff9001</color>
+    <color name="back_black_color">#e0000000</color>
+</resources>
