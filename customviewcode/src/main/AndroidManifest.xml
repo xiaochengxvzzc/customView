@@ -3,7 +3,8 @@
     package="com.customexample.zzc.customviewcode">
 
     <application>
-        <activity android:name=".activity.MainActivity"></activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.PathViewActivity"></activity>
     </application>
 
 </manifest>

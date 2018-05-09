@@ -85,7 +85,7 @@
 -keepclassmembers class fqcn.of.javascript.interface.for.Webview {
    public *;
 }
--keepclassme.mbers class * extends android.webkit.WebViewClient {
+-keepclassmembers class * extends android.webkit.WebViewClient {
     public void *(android.webkit.WebView, java.lang.String, android.graphics.Bitmap);
     public boolean *(android.webkit.WebView, java.lang.String);
 }
